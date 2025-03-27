@@ -20,7 +20,7 @@ We tested SoliCheck on public datasets, comparing it with traditional and neural
 
 
 ## Dataset
-We use three datasets in this paper. 
+We use three datasets in this paper. <br>
 [Dataset1](https://github.com/Messi-Q/Smart-Contract-Dataset)contains over 40,000 smart contracts. <br>
 [Dataset2](https://github.com/Messi-Q/Smart-Contract-Dataset)contains about 1,200 labeled smart contracts. <br>
 [Dataset3](https://figshare.com/articles/software/scvhunter/24566893/1?file=43154218)contains 300 labeled smart contracts.
