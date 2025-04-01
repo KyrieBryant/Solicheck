@@ -2,6 +2,7 @@
 ## Overview of SoliCheck
 <img src="./model.png">
 ## Background
+
 Smart contracts are the bedrock of blockchain ecosystems, ensuring the secure and efficient operation of blockchain networks. However, the presence of vulnerabilities in these contracts can lead to substantial financial losses and undermine the integrity of the entire blockchain infrastructure.
 ## Shortcomings of Existing Tools
 
