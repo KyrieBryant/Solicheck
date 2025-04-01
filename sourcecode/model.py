@@ -5,7 +5,7 @@ from transformers import AutoModelForSequenceClassification,AutoModel,AutoTokeni
 
 
 class CodeBERTModel(torch.nn.Module):
-    def __init__(self, model_name="codebert-base", num_labels=1):
+    def __init__(self, model_name="./codebert-base", num_labels=1):
         super(CodeBERTModel, self).__init__()
         self.model = AutoModel.from_pretrained(model_name, num_labels=num_labels)
     
