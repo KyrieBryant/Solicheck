@@ -1,9 +1,11 @@
 # SoliCheck: Smart Contract Vulnerability Detection Framework
 ## Overview of SoliCheck
 <img src="./model.png">
+
 ## Background
 
 Smart contracts are the bedrock of blockchain ecosystems, ensuring the secure and efficient operation of blockchain networks. However, the presence of vulnerabilities in these contracts can lead to substantial financial losses and undermine the integrity of the entire blockchain infrastructure.
+
 ## Shortcomings of Existing Tools
 
 Traditional smart contract detectors rely on expert - made rules. They’re ineffective and can’t scale as the number of smart contracts grows. Neural - network - based methods show potential, yet a full understanding of smart contract features is missing.
