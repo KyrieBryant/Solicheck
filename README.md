@@ -34,6 +34,7 @@ Since data processing is cumbersome, we provide two examples of training results
 git clone https://github.com/KyrieBryant/Solicheck.git
 cd Solicheck
 cd sourcecode
+pip install -r requirements.txt
 #before running you should unzip Dadaset2_mini.zip and dataset_func.zip
 python word2vec.py
 python SoliCheck_BERT_Dataset3.py
