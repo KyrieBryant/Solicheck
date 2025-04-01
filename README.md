@@ -29,7 +29,10 @@ We use three datasets in this paper. <br>
 [Dataset3](https://figshare.com/articles/software/scvhunter/24566893/1?file=43154218)contains 300 labeled smart contracts.
 
 ## Run Example
-Since data processing is cumbersome, we provide two examples of training results on ether strict equality (SE) for Dataset2 and reentrancy for Dataset3. Open the sourcecode folder, unzip Dadaset2_mini.zip and dataset_func.zip in the current folder, then go to sourcecode in the terminal, run SoliCheck_BERT_Dataset3.py and SoliCheck_Dataset2.py. If you want to run SoliCheck_w2v_ft_Dataset3.py, you need to run word2vec.py to train Word2vec and FastText model first. After cloning this project using git, go to the sourcecode folder, extract the two files mentioned earlier, and run the main program.
+Since data processing is cumbersome, we provide two examples of training results on ether strict equality (SE) for Dataset2 and reentrancy for Dataset3. Open the sourcecode folder, unzip Dadaset2_mini.zip and dataset_func.zip in the current folder, then go to sourcecode in the terminal, run SoliCheck_BERT_Dataset3.py and SoliCheck_Dataset2.py. If you want to run SoliCheck_w2v_ft_Dataset3.py, you need to run word2vec.py to train Word2vec and FastText model first. After cloning this project using git, go to the sourcecode folder, extract the two files mentioned earlier, and run the main program.<br>
+In addition, you need to download [bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased/tree/main) and place the file in the directory `./sourcecode/bert-uncased`.
+download [codebert-base](https://huggingface.co/microsoft/codebert-base) and put the file in the directory `codebert-base`.
+
 ```python
 git clone https://github.com/KyrieBryant/Solicheck.git
 cd Solicheck
