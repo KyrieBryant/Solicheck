@@ -29,9 +29,15 @@ We use three datasets in this paper. <br>
 [Dataset3](https://figshare.com/articles/software/scvhunter/24566893/1?file=43154218)contains 300 labeled smart contracts.
 
 ## Run Example
-Since data processing is cumbersome, we provide two examples of training results on ether strict equality (SE) for Dataset2 and reentrancy for Dataset3. Open the sourcecode folder, unzip Dadaset2_mini.zip and dataset_func.zip in the current folder, then go to sourcecode in the terminal, run SoliCheck_BERT_Dataset3.py and SoliCheck_Dataset2.py. If you want to run SoliCheck_w2v_ft_Dataset3.py, you need to run word2vec.py to train Word2vec and FastText model first.
+Since data processing is cumbersome, we provide two examples of training results on ether strict equality (SE) for Dataset2 and reentrancy for Dataset3. Open the sourcecode folder, unzip Dadaset2_mini.zip and dataset_func.zip in the current folder, then go to sourcecode in the terminal, run SoliCheck_BERT_Dataset3.py and SoliCheck_Dataset2.py. If you want to run SoliCheck_w2v_ft_Dataset3.py, you need to run word2vec.py to train Word2vec and FastText model first. After cloning this project using git, go to the sourcecode folder, extract the two files mentioned earlier, and run the main program.
 ```python
 git clone https://github.com/KyrieBryant/Solicheck.git
 cd Solicheck
 cd sourcecode
+#before running you should unzip Dadaset2_mini.zip and dataset_func.zip
+python word2vec.py
+python SoliCheck_BERT_Dataset3.py
+pytnon SoliCheck_Dataset2.py
+python SoliCheck_w2v_ft_Dataset3.py
+```
 
