@@ -97,7 +97,7 @@ def main():
      
     if is_combine:
         model = LSTM_bert(
-        'bert-uncased',
+        './bert-uncased',
         hidden_dim=hidden_dim,
         num_layers=num_layers
     ).to(device)
@@ -105,7 +105,7 @@ def main():
         model = CombinedModel_1(model,codebert,hidden_dim=hidden_dim).to(device)
     else:
         model = BiLSTM_bert(
-        'bert-uncased',
+        './bert-uncased',
         hidden_dim=hidden_dim,
         num_layers=num_layers,
     ).to(device)
